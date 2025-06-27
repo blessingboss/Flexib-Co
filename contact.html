@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact - FlexiB</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="FlexiB Logo" />
+      <h1>FlexiB</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="sales.html">Sales</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact-section">
+    <h2>Contact Us</h2>
+    <p>We'd love to hear from you! Reach out with any questions or projects.</p>
+
+    <div class="contact-container">
+
+      <form class="contact-form" action="mailto:you@example.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <input type="tel" name="phone" placeholder="Your Phone Number" />
+        <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+
+      <div class="contact-info">
+        <h3>Get in Touch</h3>
+        <p><i class="fas fa-envelope"></i> flexibco@gmail.com</p>
+        <p><i class="fas fa-phone"></i> +234 7069961174</p>
+        <p><i class="fas fa-map-marker-alt"></i> No 5, lateef jakande, Lagos, Nigeria</p>
+
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2012 - 2025 FlexiB. All rights reserved.</p>
+  </footer>
+</body>
+</html>
